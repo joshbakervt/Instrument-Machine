@@ -42,6 +42,7 @@ public:
     void setColor(double red, double green, double blue);
     void setColor(color fill);
     void move(int deltaX, int deltaY);
+    void setCenterX(int x);
     void resize(unsigned int width, unsigned int height);
 
     virtual void draw() const;
