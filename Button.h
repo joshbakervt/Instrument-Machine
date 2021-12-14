@@ -18,7 +18,7 @@ public:
     bool isOverlapping(int x, int y) const;
 
     /* Change color of the Button when the user is hovering over it */
-    void hover();
+    bool hover();
 
     /* Change color of the Button when the user is clicking on it */
     void pressDown();

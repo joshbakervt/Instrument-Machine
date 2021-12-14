@@ -31,8 +31,9 @@ bool Button::isOverlapping(int x, int y) const {
 }
 
 /* Change color of the box when the user is hovering over it */
-void Button::hover() {
+bool Button::hover() {
     setColor(hoverFill);
+    return true;
 }
 
 /* Change color of the box when the user is clicking on it */

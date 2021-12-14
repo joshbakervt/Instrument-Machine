@@ -1,48 +1,43 @@
-# Confettify Button
+# Final Project
+Josh Baker
+CS 120
+December 13th, 2021
 
-Hopefully you have something to celebrate, because the confetti is coming!
+This project is a beat pad that plays several variations of two songs of two genres, House and Hip Hop. Their specs 
+to be used in the graphical portion of the project are a product of their superclass, Genre. When the user starts 
+the program, they are able to choose to enter three windows, one with House music buttons, one with Hip Hop, and 
+a random sound button (just for fun). The music was all produced by myself!
 
-For this project, you will use C++ graphics with classes to get a button to react to mouse and keyboard activity.
+To run this program, you should make sure you have all the necessary libraries and modules installed for both
+Python and C++. There's a chance you don't have the following installed:
 
-You may work individually or with a partner of your choosing.
+#C++:
+<time.h>
+<string>
+<filesystem>
 
-Note to Windows users: remember to copy freeglut.dll from the cmake-build-debug folder of the Graphics-Starter activity to the cmake-build-debug folder here.
+#Python:
+time, pygame, mixer, sys, playsound
 
-Note to Mac users: if you are running Catalina, remember to multiply the width and height by 2 in the glViewport line.
 
-Note to Linux users: remember to use the alternate CMakeLists.txt from the Graphics-Starter activity.
 
-## Setup
+If this is the case, simply enter "pip3 install ___" and the subsequent module/library in your terminal.
 
-Use this Guided Project template to create a new repository (see [GitHub-with-CLion](https://github.com/uvmcs120f2021/GitHub-with-CLion) repo for directions).
-**Your repository must be named with the convention: Confettify-Button-netid**, where netid is your UVM NetID username.
-* If you are collaborating, the format is Confettify-Button-netid1-netid2. Have one partner create the repository and give the other partner access on GitHub: on the repository page, go to the Settings tab, choose Manage Access, and add the person with their GitHub username.
+Now, once the program is launched, mess around! The Genre implementations take keyboard input for the sound playback.
+Notice the difference based on the graphical structure of them. One plays isolated instruments, one plays portions
+of a track, and one plays the entire track, start to finish.
 
-Remember to commit and push frequently.
+For the random button generator, just press the space bar and see if you can hear all the different possibilities.
 
-# Requirements
+During playback, the python file freezes the event-based programming nature of the beat pad. This is expected. Lisa
+gave me the go ahead to allow that to remain, as it is efficient and really the only option for playback regardless of OS.
 
-1. Read through the header and .cpp files for Quad and Button. 
-1. Implement the methods in Quad.cpp and Button.cpp that have TODO comments.
-1. Read through graphics.cpp. Notice the global Button object at the top of the file.
-1. Implement the TODO parts of graphics.cpp.
-1. Run the program. It should have a button labeled "Spawn" that produces confetti.
-1. Use an enum to get three screens:
-    * A start screen that displays a message. It should not be a button, it should be a string you print. Look at the Button draw method for an example of how to do this. Pressing the ```s``` key should move you to the second screen.
-    * The second screen will be the given confetti-spawning program.
-    * Once 100 confetti have been spawned, go to an end screen that prints a message of your choice.
-1. Make the button move with the arrow keys.
+It's possible the mp3 files will not want to load - they are all located in the cmake-build-debug folder - try moving them to the 
+general project folder and back if that is the case - I resolved this issue by reformatting the files, but there's a chance
+it acts up again, and in that case, this solution worked for me.
 
-## Grading
+Please have fun with it! I really enjoyed this project and I hope you can appreciate the effort that went into efficient
+playback of these tracks, and the time it took to produce them as well to be able to create a unique project. 
+Thank you!
 
-This project is due by 11:59pm ET on Friday, November 19th.
-* If you are collaborating, both partners have to submit the project.
 
-### Grading Rubric
-- [ ] (2 pts) Implement draw method in the Quad class.
-- [ ] (2 pts) Implement isOverlapping method in the Button class.
-- [ ] (7 pts) Implement all TODOs in graphics.cpp.
-- [ ] (3 pts) Create the three screens as described above with an enum.
-- [ ] (1 pt) Transition between the first and second screens using the ```s``` key.
-- [ ] (1 pt) Transition between the second and third screens when 100 confetti are spawned.
-- [ ] (4 pts) Move the Button with the arrow keys.

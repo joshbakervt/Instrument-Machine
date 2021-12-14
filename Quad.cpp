@@ -94,10 +94,12 @@ void Quad::draw() const {
     // Implement
     // Don't forget to set the color to the fill field
     // Set drawing color to fill color
-    glColor3f(fill.red, fill.green, fill.blue);
+    glColor3f((fill.red - 0.3), (fill.green - 0.3), (fill.blue - 0.3));
     glBegin(GL_QUAD_STRIP);
     glVertex2i(getLeftX(), getTopY());
+    glColor3f(fill.red, fill.green, fill.blue);
     glVertex2i(getRightX(), getTopY());
+    glColor3f((fill.red - 0.3), (fill.green - 0.3), (fill.blue - 0.3));
     glVertex2i(getLeftX(), getBottomY());
     glVertex2i(getRightX(), getBottomY());
     glEnd();
