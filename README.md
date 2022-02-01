@@ -41,8 +41,8 @@ Thank you!
 Citations: This project was built with code initially authored by Lisa Dion, Computer Science Lecturer at the University of Vermont. The files used in this project that are her own or were influenced by her code include the following:
   cmake_install.cmake
   CMakeLists.txt
-  Button.h, Button.cpp framework
-  Quad.cpp, Quad.h framework
-  Graphics.cpp, Graphics.h framework
+  Button.h, Button.cpp (framework)
+  Quad.cpp, Quad.h (framework)
+  Graphics.cpp, Graphics.h (framework)
   
 
