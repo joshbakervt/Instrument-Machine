@@ -1,6 +1,4 @@
-# Final Project
-Josh Baker
-CS 120
+# Instrument Machine
 December 13th, 2021
 
 This project is a beat pad that plays several variations of two songs of two genres, House and Hip Hop. Their specs 
@@ -40,4 +38,11 @@ Please have fun with it! I really enjoyed this project and I hope you can apprec
 playback of these tracks, and the time it took to produce them as well to be able to create a unique project. 
 Thank you!
 
+Citations: This project was built with code initially authored by Lisa Dion, Computer Science Lecturer at the University of Vermont. The files used in this project that are her own or were influenced by her code include the following:
+  cmake_install.cmake
+  CMakeLists.txt
+  Button.h, Button.cpp framework
+  Quad.cpp, Quad.h framework
+  Graphics.cpp, Graphics.h framework
+  
 
