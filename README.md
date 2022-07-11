@@ -34,11 +34,9 @@ It's possible the mp3 files will not want to load - they are all located in the 
 general project folder and back if that is the case - I resolved this issue by reformatting the files, but there's a chance
 it acts up again, and in that case, this solution worked for me.
 
-Please have fun with it! I really enjoyed this project and I hope you can appreciate the effort that went into efficient
-playback of these tracks, and the time it took to produce them as well to be able to create a unique project. 
-Thank you!
+Have fun with it!
 
-Citations: This project was built with code initially authored by Lisa Dion, Computer Science Lecturer at the University of Vermont. The files used in this project that are her own or were influenced by her code include the following:
+Citations: Some components of this project were authored by Lisa Dion, Computer Science Lecturer at the University of Vermont. The files used in this project that are her own or were influenced by her code include the following:
   - cmake_install.cmake
   - CMakeLists.txt
   - Button.h, Button.cpp (framework)
