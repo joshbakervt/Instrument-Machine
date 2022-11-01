@@ -35,12 +35,5 @@ general project folder and back if that is the case - I resolved this issue by r
 it acts up again, and in that case, this solution worked for me.
 
 Have fun with it!
-
-Citations: Some components of this project were authored by Lisa Dion, Computer Science Lecturer at the University of Vermont. The files used in this project that are her own or were influenced by her code include the following:
-  - cmake_install.cmake
-  - CMakeLists.txt
-  - Button.h, Button.cpp (framework)
-  - Quad.cpp, Quad.h (framework)
-  - Graphics.cpp, Graphics.h (framework)
   
 
