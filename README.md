@@ -27,9 +27,6 @@ of a track, and one plays the entire track, start to finish.
 
 For the random button generator, just press the space bar and see if you can hear all the different possibilities.
 
-During playback, the python file freezes the event-based programming nature of the beat pad. This is expected. Lisa
-gave me the go ahead to allow that to remain, as it is efficient and really the only option for playback regardless of OS.
-
 It's possible the mp3 files will not want to load - they are all located in the cmake-build-debug folder - try moving them to the 
 general project folder and back if that is the case - I resolved this issue by reformatting the files, but there's a chance
 it acts up again, and in that case, this solution worked for me.
