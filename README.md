@@ -4,7 +4,7 @@ December 13th, 2021
 This project is a beat pad that plays several variations of two songs of two genres, House and Hip Hop. Their specs 
 to be used in the graphical portion of the project are a product of their superclass, Genre. When the user starts 
 the program, they are able to choose to enter three windows, one with House music buttons, one with Hip Hop, and 
-a random sound button (just for fun). The music was all produced by myself!
+a random sound button (just for fun).
 
 To run this program, you should make sure you have all the necessary libraries and modules installed for both
 Python and C++. There's a chance you don't have the following installed:
